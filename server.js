@@ -27,13 +27,13 @@ app.use(cors());
 app.use(express.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(errorHandler)
 
 // Routes
 app.use('/api/users',userRoutes)
 app.use('/api/admin',adminRoutes)
 app.use('/api/driver',driverRoutes)
 
+app.use(errorHandler)
 
 
 
