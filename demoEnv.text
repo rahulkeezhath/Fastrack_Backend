@@ -1,0 +1,20 @@
+// Eg:
+MONGO_URL = "mongodb://localhost:27017/car-rental"
+PORT = 7000
+JWTPRIVATEKEY = 5775
+SALT = 77
+
+
+NODE_ENV = development  ///Put this one as same
+
+
+## These are your accountSid and authToken from https://www.twilio.com/console
+below is an example
+TWILIO_ACCOUNT_SID="AC8f7715780bb85421c1ad4d41e4b6bb12"
+TWILIO_AUTH_TOKEN="1ba10a6e849ad72338bdc7dfbd06e75b"
+TWILIO_AUTH_SERVICE_SID="VA73095a40hmyfttyecbde5c6f268e07bd"
+
+
+## These are your apikey and apisecret from https://www.cloudinary.com
+CLOUDINARY_API_KEY = 892291954787137
+CLOUDINARY_API_SECRET = 8s-OkXfeSXsMLOt2egMOu2xIE6M
