@@ -12,7 +12,7 @@ NODE_ENV = development  ///Put this one as same
 below is an example
 TWILIO_ACCOUNT_SID="AC8f7715780bb85421c1ad4d41e4b6bb12"
 TWILIO_AUTH_TOKEN="1ba10a6e849ad72338bdc7dfbd06e75b"
-TWILIO_AUTH_SERVICE_SID="VA73095a40hmyfttyecbde5c6f268e07bd"
+TWILIO_SERVICE_SID="VA73095a40hmyfttyecbde5c6f268e07bd"
 
 
 ## These are your apikey and apisecret from https://www.cloudinary.com
