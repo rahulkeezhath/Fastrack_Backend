@@ -147,8 +147,6 @@ const bookCar = asyncHandler(async (req,res) => {
             }
         }
         theCar.bookedSlots.push({ from: pickUpDate, to: dropOffDate})
-         theCar.isBlocked = true,
-       
         await theCar.save()
 
         const bookCar = await Bookings.create({
