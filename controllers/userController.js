@@ -131,10 +131,10 @@ const bookCar = asyncHandler(async (req,res) => {
     } else {
         const  theCar = await Cars.findById(car)
        
-        let selectedFrom = moment(pickUpDate)
+        let selectedFrom = moment(pickUpDate, 'DD/MM/YYYY')
        
       
-        let selectedTo = moment(dropOffDate)
+        let selectedTo = moment(dropOffDate,'DD/MM/YYYY')
     
     
         
